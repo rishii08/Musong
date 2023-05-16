@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musong</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"> <img src="Musong.png" alt="Musong">Musong</li>
+            <!-- <li>Home</li>
+            <li>About</li> -->
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Favourite Songs To Listen</h1><br><br>
+            <div class="songitem">
+                <img src="covers/1.jpeg" alt="1">
+                <span class="songname">Achhi lagti Ho</span>
+                <span class="songlistplay"><span class="timestamp">04:07 <i id="0" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="covers/2.jpeg" alt="2">
+                <span class="songname">Everything Sucks</span>
+                <span class="songlistplay"><span class="timestamp">02:00 <i id="1" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="covers/3.jpeg" alt="3">
+                <span class="songname">Wish You Well</span>
+                <span class="songlistplay"><span class="timestamp">01:35 <i id="2" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="covers/4.jpeg" alt="4">
+                <span class="songname">Do or Die</span>
+                <span class="songlistplay"><span class="timestamp">03:55 <i id="3" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="covers/5.jpeg" alt="5">
+                <span class="songname">Rab Ka Shukrana</span>
+                <span class="songlistplay"><span class="timestamp">05:01 <i id="4" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="covers/6.jpeg" alt="6">
+                <span class="songname">Udh Chliye</span>
+                <span class="songlistplay"><span class="timestamp">03:54 <i id="5" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="covers/7.jpeg" alt="7">
+                <span class="songname">Maybe My Soulmate Died</span>
+                <span class="songlistplay"><span class="timestamp">01:52 <i id="6" class=" songItemPlay fa-solid fa-circle-play"></i></span></span>
+            </div>
+            
+            
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fa-solid fa-3x fa-backward-step"></i>
+            <i id="masterPlay" class="fa-solid fa-3x fa-circle-play"></i>
+            <i id="next" class="fa-solid fa-3x fa-forward-step"></i> 
+        </div>
+        <div class="songgif">
+            <img src="playing.gif" alt="No Input" width="100px" id="gif"> <span id="masterSong">Achhi Lagti Ho</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/be6a8b9886.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
