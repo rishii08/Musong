@@ -1,2 +1,2 @@
 # Musong
-Song Web Paage to listen to your favourite Musics
+Song Web Page to listen to your favourite Musics
